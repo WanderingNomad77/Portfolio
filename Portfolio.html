@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+<meta name="author" content="Author: J.C. Kameni" />
+
+
+<title>R-Shiny Portfolio</title>
+<!-- Material Design fonts -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="Portfolio_files/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="Portfolio_files/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="Portfolio_files/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+<script src="Portfolio_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="Portfolio_files/navigation-1.1/tabsets.js"></script>
+<script src="Portfolio_files/navigation-1.1/codefolding.js"></script>
+<link href="Portfolio_files/magnific-popup-1.1.0/magnific-popup.css" rel="stylesheet" />
+<script src="Portfolio_files/magnific-popup-1.1.0/jquery.magnific-popup.min.js"></script>
+<link href="Portfolio_files/bootstrap_material-0.1/bootstrap-material-design.min.css" rel="stylesheet" />
+<link href="Portfolio_files/bootstrap_material-0.1/ripples.min.css" rel="stylesheet" />
+<script src="Portfolio_files/bootstrap_material-0.1/material.min.js"></script>
+<script src="Portfolio_files/bootstrap_material-0.1/ripples.min.js"></script>
+<link href="Portfolio_files/material-0.1/material.css" rel="stylesheet" />
+<script src="Portfolio_files/material-0.1/material.js"></script>
+
+
+
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+</head>
+
+<body>
+
+<div class="header-panel shadow z-2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-3">
+        <div id="header">
+    <h1 class="title">R-Shiny Portfolio</h1>
+                <h4 class="author">Author: J.C. Kameni</h4>
+                </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid main-container">
+    <div class="row">
+      <nav class="col-xs-3 menu">
+        <div id="toc">
+        <ul>
+        <li><a href="#exoplanet-explorer">Exoplanet Explorer</a></li>
+        <li><a href="#international-monetary-fund-exploratory-dashboard">International Monetary Fund Exploratory Dashboard</a></li>
+        </ul>
+        </div>
+        
+        
+        
+      </nav>
+     <div class="pages col-xs-9">
+     <div class="row">
+       <div class="col-xs-10">
+
+
+
+<div id="exoplanet-explorer" class="section level1">
+<h1>Exoplanet Explorer</h1>
+<center>
+<img src="NASA.png" alt="Web application written in R, HTML, CSS &amp; Javascript" width="500" />
+</center>
+<div id="discover-the-extra-solar-planets-spotted-by-the-kepler-and-k2-missions-coupled-with-the-efforts-of-50-observatories-worldwide." class="section level2">
+<h2><a href="http://ec2-54-244-66-133.us-west-2.compute.amazonaws.com:3838/Exoplanet_Archive/" target="_blank">Discover the extra-solar planets spotted by the Kepler and K2 missions, coupled with the efforts of 50+ observatories worldwide. </a></h2>
+<p><strong>Machine learning concepts:</strong> Convolutional Neural Networks (CNN), Principal Components Analysis (PCA) &amp; K-means Clustering.</p>
+<p><strong>Data Sources:</strong> <a href="https://exoplanetarchive.ipac.caltech.edu/" target="_blank"><strong>NASA Exoplanet Archive</strong></a>, <a href="https://archive.stsci.edu/" target="_blank"><strong>Mikulski Archive for Space Telescopes</strong></a>.</p>
+<p><strong>Other technologies include:</strong> Apache Spark, Amazon Elastic Map Reduce.</p>
+</div>
+<div id="with-this-web-application-you-can" class="section level2 tabset tabset-fade tabset-pills">
+<h2><strong>With this web application you can:</strong></h2>
+<div id="geo-localize-observatories-and-the-planets-that-they-have-respectively-found" class="section level3">
+<h3>1/ Geo-localize observatories and the planets that they have respectively found:</h3>
+<p><embed src="exoplanet_vid480.mp4" /> <video width="750" height="500" controls> <source src="exoplanet_vid480.mp4" type="video/mp4"> </video></p>
+</div>
+<div id="search-for-data-of-interest-using-a-user-friendly-query-builder-interface." class="section level3">
+<h3>2/ Search for data of interest using a user-friendly query builder interface.</h3>
+<video width="750" height="500" controls>
+<source src="query_vid480.mp4" type="video/mp4">
+</video>
+</div>
+<div id="interact-with-data-and-find-correlations-between-variables." class="section level3">
+<h3>3/ Interact with data and find correlations between variables.</h3>
+<video width="750" height="500" controls>
+<source src="correlation_vid480.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+<div id="international-monetary-fund-exploratory-dashboard" class="section level1">
+<h1>International Monetary Fund Exploratory Dashboard</h1>
+<center>
+<img src="IMF.png" alt="Web application written in R, HTML &amp; CSS - Hosted on Amazon Web Services." width="300" />
+</center>
+<div id="explore-visualize-and-predict-socio-economic-indicators-such-as-gross-domestic-product-gdp-life-expectancy-volume-of-importsexports-etc.-for-a-selection-of-150-countries." class="section level2">
+<h2><a href="http://ec2-54-244-66-133.us-west-2.compute.amazonaws.com:3838/IMF_WB_Dashboard/" target="_blank">Explore, visualize, and predict socio-economic indicators such as Gross Domestic Product (GDP), Life Expectancy, Volume of Imports/Exports, etc. for a selection of 150+ countries.</a></h2>
+<p>This web application allows you to:</p>
+<ul>
+<li>Use Google GeoMap to quickly visualize the socio-economic standing of Nations around the globe.</li>
+</ul>
+<video width="750" height="500" controls>
+<source src="IMF_how_to_480.mov" type="video/mp4">
+</video>
+<p><strong>Data Sources:</strong> <a href="https://www.imf.org/external/index.htm" target="_blank"><strong>International Monetary Fund</strong></a>, <a href="https://www.worldbank.org/" target="_blank"><strong>World Bank</strong></a></p>
+<p>Uses Auto Regressive Integrated Moving Average (ARIMA) model for Time-Series forecasting purposes.</p>
+</div>
+</div>
+
+    </div>
+    <div class="col-xs-2">
+        </div>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+    </div>
+  </div>
+
+<script>
+$(document).ready(function () {
+  // add bootstrap table styles to pandoc tables
+  $('tr.header').parent('thead').parent('table').addClass('table table-striped table-hover');
+
+    var images = $('.pages img');
+  images.filter(function() {
+      if ($(this).parent().attr("class") == "figure") {
+          return(false)
+      } else {
+          return(true);
+      }
+  }).wrap("<div class='figure'></div>");
+  images.addClass("image-thumb").wrap("<div class='panel-body'></div>");
+  $('.figure p.caption').wrap("<div class='panel-footer'></div>");
+  $('.figure').addClass('panel panel-default');
+  
+    $('.pages img')
+ 	  .addClass("image-lb");
+  $('.pages').magnificPopup({
+	      type:'image',
+	      closeOnContentClick: false,
+	      closeBtnInside: false,
+        delegate: 'img',
+	      gallery: {enabled: true },
+          removalDelay: 500,
+          callbacks: {
+              beforeOpen: function() {
+                // just a hack that adds mfp-anim class to markup
+                this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
+              }
+          },
+          mainClass: 'mfp-move-from-top',
+	      image: {
+	        verticalFit: true,
+            titleSrc: 'alt'
+	      }
+ 	    });
+ 	
+    
+    $('#toc ul li').first().addClass("active");
+    $('#toc ul li').attr("data-target", function() {
+        return($(this).children("a").attr("href"));
+    })
+    $('body .section.level1').first().addClass("active");
+    
+    $('#toc a[href*="#"]').click(function() {
+
+      var id = $(this).attr("href");
+      if (id === "#") return;
+      if (id.substring(0, 8) === "#dyntab-") return;
+      toggle_page(id);
+
+      // Menu
+      var menu_entry = $(".menu li[data-target='"+id+"']");
+      menu_entry.addClass("active");
+      $(".menu li").not(menu_entry).removeClass("active"); 
+      
+
+    });
+
+    function toggle_page(id) {
+      $(".page").not(page).removeClass("active").hide();
+      window.page = id;
+      var page = $(window.page);
+      window.location.hash = window.page;
+      //$(this).addClass("active");
+
+      page.show();
+
+      var totop = setInterval(function () {
+        $(".pages").animate({scrollTop: 0}, 0);
+      }, 10);
+
+      setTimeout(function () {
+        page.addClass("active");
+        setTimeout(function () {
+          clearInterval(totop);
+        }, 1000);
+      }, 100);
+
+      window.dispatchEvent(new Event('resize'));
+
+    }
+
+
+    $(".menu li").click(function () {
+
+      toggle_page($(this).data("target"));
+
+      // Menu
+      if (!$(this).data("target")) return;
+      if ($(this).is(".active")) return;
+      $(".menu li").not($(this)).removeClass("active");
+      $(this).addClass("active");
+
+    });
+  
+    
+
+
+    window.page = window.location.hash;
+    if (window.page != "") {
+      $(".menu").find("li[data-target=" + window.page + "]").trigger("click");
+    }
+
+    /* init material bootstrap js */
+    $.material.init();
+});
+</script>
+
+
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
